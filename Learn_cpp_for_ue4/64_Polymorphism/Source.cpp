@@ -21,6 +21,10 @@ int main() {
     Actor* ptr_to_actor = new Actor;
     Pawn* ptr_to_pawn = new Pawn;
 
+    // since Actor and Pawn both inherit from Object,
+    // it is valid to create an array of pointers to Object
+    // class instances but also place within it pointers to
+    // instances of Actor and Pawn
     Object* ObjectArray[] = {
         ptr_to_object,
         ptr_to_actor,
