@@ -1,0 +1,1 @@
+These are notes and code from Learn C++ for Game Development course by Stephen Ulibarri on Udemy
